@@ -57,6 +57,6 @@ month_no = random_month()
 month_name = calendar.month_name[month_no]
 day_no = random_day(month_no)
 sign = compare[month_no](day_no)
-print(f"month : {calendar.month_name[month_no]}\n"
+print(f"month : {month_name}\n"
       f"day : {day_no}\n"
       f"zodiac sign : {sign}")
